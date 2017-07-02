@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Benedict</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Peter Benedict</h1>
+      <h2>full stack developer</h2>
+      <img class="icon" src="img/logo.png" alt="a yellow creature holds a purple ball">
+    </header>
+
+    <nav>
+      <div class="navButton" onclick="autoScrollTo('portfolio')">portfolio</div>
+      <div class="navButton" onclick="autoScrollTo('bio')">bio</div>
+      <div class="navButton" onclick="autoScrollTo('contact')">contact</div>
+    </nav>
+    <h3 id="portfolio">portfolio</h3>
+    <section class="portfolio">
+
+      <div class="box">
+        <div class="invisible-box" onmouseover="hide('p1')"></div>
+        <img class="full" src="img/xylomon.png" alt="a pastel-rainbow colored xylophone">
+        <div class="full" onclick="clickHandler('p1')" onmouseover="show('p1')"></div>
+        <div id="p1" class="info-panel-closed">
+          <a class="hide" href="https://u8k.github.io/xylomon/" target="_blank">xylomon</a>
+          <a class="hide" href="https://github.com/u8k/xylomon" target="_blank">sourceCode</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="invisible-box" onmouseover="hide('p2')"></div>
+        <img class="full" src="img/ticTacToe.png" alt="an in progress game of tic-tac-toe">
+        <div class="full" onclick="clickHandler('p2')" onmouseover="show('p2')"></div>
+        <div id="p2" class="info-panel-closed">
+          <a class="hide" href="https://u8k.github.io/ticTacToe/" target="_blank">tic-tac-toe</a>
+          <a class="hide" href="https://github.com/u8k/ticTacToe" target="_blank">sourceCode</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="invisible-box" onmouseover="hide('p3')"></div>
+        <img class="full" src="img/wiki.png" alt="an interface for searching wikipedia">
+        <div class="full" onclick="clickHandler('p3')" onmouseover="show('p3')"></div>
+        <div id="p3" class="info-panel-closed">
+          <a class="hide" href="https://u8k.github.io/wikiWaka/" target="_blank">wikipedia viewer</a>
+          <a class="hide" href="https://github.com/u8k/wikiWaka" target="_blank">sourceCode</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="invisible-box" onmouseover="hide('p4')"></div>
+        <img class="full" src="img/dumbledore.png" alt="a picture of Albus Dumbledore acompanies words of wisdom">
+        <div class="full" onclick="clickHandler('p4')" onmouseover="show('p4')"></div>
+        <div id="p4" class="info-panel-closed">
+          <a class="hide" href="https://u8k.github.io/dumbledoreDotCom/" target="_blank">dumbledore.com</a>
+          <a class="hide" href="https://github.com/u8k/dumbledoreDotCom" target="_blank">sourceCode</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="invisible-box" onmouseover="hide('p5')"></div>
+        <img class="full" src="img/pomodoro.png" alt="the number '25' with arrows to alter it's value and a 'go' button">
+        <div class="full" onclick="clickHandler('p5')" onmouseover="show('p5')"></div>
+        <div id="p5" class="info-panel-closed">
+          <a class="hide" href="https://u8k.github.io/pomodoro/" target="_blank">pomodoro</a>
+          <a class="hide" href="https://github.com/u8k/pomodoro" target="_blank">sourceCode</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bio" id="bio">
+      <h3>bio</h3>
+      <p>
+        Expedita architecto qui officiis quis nihil et dolor iste. Non et odit ducimus quia incidunt delectus mollitia. Itaque dicta perferendis delectus.
+        <br><br>
+        Et sint ut laborum non eius eius at. Velit et natus maxime est ut. Sit in eum aperiam. Explicabo aliquid hic aut explicabo accusamus a possimus similique.
+        <br><br>
+        Veniam nam aut commodi doloremque repudiandae nam suscipit. Ad quos vel autem sunt. Impedit vel facere velit. Consequatur cum nemo molestiae ducimus aut ut amet ratione. Nobis quibusdam ad ad accusamus.
+        <br><br>
+        Inventore et quia quisquam natus ducimus aut vitae molestiae. Dignissimos labore omnis soluta. Excepturi quaerat eum optio enim et impedit quis. Voluptatem eveniet voluptas quia. Voluptas aliquam expedita aut numquam ducimus omnis autem.
+        <br><br>
+        Ipsum aut nisi deleniti adipisci. Quos aperiam culpa eius ipsa perferendis voluptatibus delectus. Inventore et ut quia veniam fuga. A dolorum rem debitis hic occaecati.
+      </p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h3>contact</h3>
+      <p><a href="https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg">linkedIn</a></p>
+      <p><a href="https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg">twitter</a></p>
+      <p><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjOqKI0kZG7nIV2w7AFRWfPUGiqeM0J26TbCp8irR1jZiNG556">facebook</a></p>
+      <p>subliminalducks at gmail</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
